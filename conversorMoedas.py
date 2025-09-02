@@ -4,14 +4,6 @@ def mostrar(resultado, nome, moeda):
     else:
         print(f"{nome}: {resultado} {moeda}")
 
-
-valor = float(input("Valor em BRL: "))
-cot_USD = float(input("Cotação do Dólar: "))
-cot_EUR = float(input("Cotação do Euro: "))
-
-resultadoUSD = valor * cot_USD
-resultadoEUR = valor * cot_EUR
-
 # Solicita o valor em reais ao usuário
 valor = float(input("Valor em BRL: "))
 # Solicita a cotação do dólar
